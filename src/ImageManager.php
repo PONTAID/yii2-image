@@ -17,7 +17,7 @@ use yii\helpers\FileHelper;
 class ImageManager extends Component
 {
     /** @var string драйвер обрабатывающий изображения*/
-    public $driver = 'imagick';
+    public $driver = 'gd';
 
     /** @var int ширина по умолчанию */
     public $defaultWidth = 640;
